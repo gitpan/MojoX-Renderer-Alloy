@@ -23,10 +23,10 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'MojoX::Renderer::Alloy',
   'PREREQ_PM' => {
-    'Mojolicious' => '0.999960',
+    'Mojolicious' => '1.01',
     'Template::Alloy' => '1.013'
   },
-  'VERSION' => '1.103450',
+  'VERSION' => '1.110180',
   'test' => {
     'TESTS' => 't/*.t'
   }

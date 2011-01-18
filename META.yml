@@ -8,102 +8,102 @@ configure_requires:
   ExtUtils::MakeMaker: 6.31
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102343, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.102400'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: MojoX-Renderer-Alloy
 requires:
-  Mojolicious: 0.999960
+  Mojolicious: 1.01
   Template::Alloy: 1.013
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MojoX-Renderer-Alloy
   homepage: http://search.cpan.org/dist/MojoX-Renderer-Alloy
   repository: git://github.com/ajgb/mojox-renderer-alloy.git
-version: 1.103450
+version: 1.110180
 x_Dist_Zilla:
   plugins:
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@Filter/@Basic/GatherDir'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::PruneCruft
       name: '@Filter/@Basic/PruneCruft'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::ManifestSkip
       name: '@Filter/@Basic/ManifestSkip'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::MetaYAML
       name: '@Filter/@Basic/MetaYAML'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::License
       name: '@Filter/@Basic/License'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::Readme
       name: '@Filter/@Basic/Readme'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@Filter/@Basic/ExtraTests'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::ExecDir
       name: '@Filter/@Basic/ExecDir'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::ShareDir
       name: '@Filter/@Basic/ShareDir'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::MakeMaker
       name: '@Filter/@Basic/MakeMaker'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::Manifest
       name: '@Filter/@Basic/Manifest'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@Filter/@Basic/TestRelease'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
       name: '@Filter/@Basic/ConfirmRelease'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@Filter/@Basic/UploadToCPAN'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@Filter/MetaConfig'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::ModuleBuild
       name: '@Filter/ModuleBuild'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::PodCoverageTests
       name: '@Filter/PodCoverageTests'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::PodSyntaxTests
       name: '@Filter/PodSyntaxTests'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::PkgVersion
       name: '@Filter/PkgVersion'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::MetaJSON
       name: '@Filter/MetaJSON'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::CheckChangesHasContent
       name: '@Filter/CheckChangesHasContent'
@@ -139,11 +139,11 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::AutoVersion
       name: '@Filter/AutoVersion'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::AutoMetaResources
       name: '@Filter/AutoMetaResources'
-      version: 1.103080
+      version: 1.110050
     -
       class: Dist::Zilla::Plugin::Authority
       name: '@Filter/Authority'
@@ -159,26 +159,26 @@ x_Dist_Zilla:
           phase: runtime
           type: requires
       name: Prereqs
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':TestFiles'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ExecFiles'
-      version: 4.102343
+      version: 4.200000
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ShareFiles'
-      version: 4.102343
+      version: 4.200000
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
       is_trial: 0
-    version: 4.102343
+    version: 4.200000
 x_authority: cpan:AJGB

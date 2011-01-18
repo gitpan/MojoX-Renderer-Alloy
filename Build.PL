@@ -18,13 +18,13 @@ my %module_build_args = (
     'Alex J. G. Burzyński <ajgb@cpan.org>'
   ],
   'dist_name' => 'MojoX-Renderer-Alloy',
-  'dist_version' => '1.103450',
+  'dist_version' => '1.110180',
   'license' => 'perl',
   'module_name' => 'MojoX::Renderer::Alloy',
   'recommends' => {},
   'recursive_test_files' => 1,
   'requires' => {
-    'Mojolicious' => '0.999960',
+    'Mojolicious' => '1.01',
     'Template::Alloy' => '1.013'
   },
   'script_files' => []

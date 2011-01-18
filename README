@@ -2,7 +2,7 @@ NAME
     MojoX::Renderer::Alloy - Base class for Template::Alloy renderer
 
 VERSION
-    version 1.103450
+    version 1.110180
 
 SYNOPSIS
     Base abstract class for following renderers:
