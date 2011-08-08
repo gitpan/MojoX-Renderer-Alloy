@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -15,7 +15,7 @@ my %WriteMakefileArgs = (
     'Module::Build' => '0.3601'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31',
+    'ExtUtils::MakeMaker' => '6.30',
     'Module::Build' => '0.3601'
   },
   'DISTNAME' => 'MojoX-Renderer-Alloy',
@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     'Mojolicious' => '1.01',
     'Template::Alloy' => '1.013'
   },
-  'VERSION' => '1.110180',
+  'VERSION' => '1.112200',
   'test' => {
     'TESTS' => 't/*.t'
   }

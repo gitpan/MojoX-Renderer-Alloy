@@ -2,7 +2,7 @@ NAME
     MojoX::Renderer::Alloy - Base class for Template::Alloy renderer
 
 VERSION
-    version 1.110180
+    version 1.112200
 
 SYNOPSIS
     Base abstract class for following renderers:
@@ -20,7 +20,7 @@ METHODS
     Build handler for selected renderer.
 
     Please note that for all renderers a Mojolicious::Controller is
-    available as "c" variable.
+    available as "c" variable, while helpers are available as "h" variable.
 
 AUTHOR
     Alex J. G. Burzyński <ajgb@cpan.org>

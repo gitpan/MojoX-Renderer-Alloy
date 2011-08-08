@@ -10,7 +10,7 @@ my %module_build_args = (
     'Module::Build' => '0.3601'
   },
   'configure_requires' => {
-    'ExtUtils::MakeMaker' => '6.31',
+    'ExtUtils::MakeMaker' => '6.30',
     'Module::Build' => '0.3601'
   },
   'dist_abstract' => 'Base class for Template::Alloy renderer',
@@ -18,7 +18,7 @@ my %module_build_args = (
     'Alex J. G. Burzyński <ajgb@cpan.org>'
   ],
   'dist_name' => 'MojoX-Renderer-Alloy',
-  'dist_version' => '1.110180',
+  'dist_version' => '1.112200',
   'license' => 'perl',
   'module_name' => 'MojoX::Renderer::Alloy',
   'recommends' => {},
