@@ -2,7 +2,7 @@ NAME
     MojoX::Renderer::Alloy - Base class for Template::Alloy renderer
 
 VERSION
-    version 1.112200
+    version 1.121150
 
 SYNOPSIS
     Base abstract class for following renderers:
@@ -26,7 +26,7 @@ AUTHOR
     Alex J. G. Burzyński <ajgb@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2010 by Alex J. G. Burzyński
+    This software is copyright (c) 2012 by Alex J. G. Burzyński
     <ajgb@cpan.org>.
 
     This is free software; you can redistribute it and/or modify it under

@@ -4,8 +4,8 @@ package MojoX::Renderer::Alloy::Tmpl;
 BEGIN {
   $MojoX::Renderer::Alloy::Tmpl::AUTHORITY = 'cpan:AJGB';
 }
-BEGIN {
-  $MojoX::Renderer::Alloy::Tmpl::VERSION = '1.112200';
+{
+  $MojoX::Renderer::Alloy::Tmpl::VERSION = '1.121150';
 }
 #ABSTRACT: Template::Alloy's Text::Tmpl renderer
 
@@ -99,7 +99,7 @@ MojoX::Renderer::Alloy::Tmpl - Template::Alloy's Text::Tmpl renderer
 
 =head1 VERSION
 
-version 1.112200
+version 1.121150
 
 =head1 SYNOPSIS
 
@@ -133,11 +133,13 @@ Note: default delimiters (I<START_TAG> and I<END_TAG>) are C<#[> and C<]#>.
 
 =head1 SEE ALSO
 
+Please see those modules/websites for more information related to this module.
+
 =over 4
 
 =item *
 
-L<MojoX::Renderer::Alloy>
+L<MojoX::Renderer::Alloy|MojoX::Renderer::Alloy>
 
 =back
 
@@ -147,7 +149,7 @@ Alex J. G. Burzyński <ajgb@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Alex J. G. Burzyński <ajgb@cpan.org>.
+This software is copyright (c) 2012 by Alex J. G. Burzyński <ajgb@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

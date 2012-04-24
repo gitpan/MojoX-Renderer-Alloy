@@ -4,8 +4,8 @@ package MojoX::Renderer::Alloy::TT;
 BEGIN {
   $MojoX::Renderer::Alloy::TT::AUTHORITY = 'cpan:AJGB';
 }
-BEGIN {
-  $MojoX::Renderer::Alloy::TT::VERSION = '1.112200';
+{
+  $MojoX::Renderer::Alloy::TT::VERSION = '1.121150';
 }
 #ABSTRACT: Template::Alloy's Template-Toolkit renderer
 
@@ -50,7 +50,7 @@ MojoX::Renderer::Alloy::TT - Template::Alloy's Template-Toolkit renderer
 
 =head1 VERSION
 
-version 1.112200
+version 1.121150
 
 =head1 SYNOPSIS
 
@@ -74,11 +74,13 @@ Please see L<Mojolicious::Plugin::AlloyRenderer> for configuration options.
 
 =head1 SEE ALSO
 
+Please see those modules/websites for more information related to this module.
+
 =over 4
 
 =item *
 
-L<MojoX::Renderer::Alloy>
+L<MojoX::Renderer::Alloy|MojoX::Renderer::Alloy>
 
 =back
 
@@ -88,7 +90,7 @@ Alex J. G. Burzyński <ajgb@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Alex J. G. Burzyński <ajgb@cpan.org>.
+This software is copyright (c) 2012 by Alex J. G. Burzyński <ajgb@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

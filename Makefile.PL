@@ -9,26 +9,26 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Base class for Template::Alloy renderer',
-  'AUTHOR' => 'Alex J. G. Burzyński <ajgb@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'Module::Build' => '0.3601'
+  "ABSTRACT" => "Base class for Template::Alloy renderer",
+  "AUTHOR" => "Alex J. G. Burzy\305\204ski <ajgb\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "Module::Build" => "0.3601"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30',
-    'Module::Build' => '0.3601'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30",
+    "Module::Build" => "0.3601"
   },
-  'DISTNAME' => 'MojoX-Renderer-Alloy',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'MojoX::Renderer::Alloy',
-  'PREREQ_PM' => {
-    'Mojolicious' => '1.01',
-    'Template::Alloy' => '1.013'
+  "DISTNAME" => "MojoX-Renderer-Alloy",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "MojoX::Renderer::Alloy",
+  "PREREQ_PM" => {
+    "Mojolicious" => "2.89",
+    "Template::Alloy" => "1.013"
   },
-  'VERSION' => '1.112200',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.121150",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

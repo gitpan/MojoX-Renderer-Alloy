@@ -4,8 +4,8 @@ package MojoX::Renderer::Alloy;
 BEGIN {
   $MojoX::Renderer::Alloy::AUTHORITY = 'cpan:AJGB';
 }
-BEGIN {
-  $MojoX::Renderer::Alloy::VERSION = '1.112200';
+{
+  $MojoX::Renderer::Alloy::VERSION = '1.121150';
 }
 #ABSTRACT: Base class for Template::Alloy renderer
 
@@ -142,7 +142,7 @@ MojoX::Renderer::Alloy - Base class for Template::Alloy renderer
 
 =head1 VERSION
 
-version 1.112200
+version 1.121150
 
 =head1 SYNOPSIS
 
@@ -175,7 +175,7 @@ Alex J. G. Burzyński <ajgb@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Alex J. G. Burzyński <ajgb@cpan.org>.
+This software is copyright (c) 2012 by Alex J. G. Burzyński <ajgb@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
